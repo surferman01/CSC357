@@ -26,5 +26,7 @@ How to get into the Unix System
 ssh bsoto@unix5.csc.calpoly.edu
 
 gcc hello.c -o hello -g -Wall
+^ can use clang instead?
 
-get gdb on mac -> need 
+get gdb on mac -> need?
+^ lldb for the mac
