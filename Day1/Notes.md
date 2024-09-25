@@ -30,3 +30,8 @@ gcc hello.c -o hello -g -Wall
 
 get gdb on mac -> need?
 ^ lldb for the mac
+
+
+for gcc:
+-o name_of_.out_file_here
+
