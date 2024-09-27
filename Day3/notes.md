@@ -106,3 +106,10 @@ Character IO
   
 
 you can pipe into new_cat.c something and its basically a cat copy
+
+
+How to get addressed for variables in vscode
+- go to Debug Console
+- -exec print &[var]
+  - with the & gives the address
+  - without the & just gives the value
