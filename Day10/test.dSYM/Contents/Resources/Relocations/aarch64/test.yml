@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bensoto/Documents/Cal Poly Courses/CSC357/Day10/test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003ED0, symSize: 0x2C }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x100003ED0, symSize: 0x2C }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _swap2, symObjAddr: 0x2C, symBinAddr: 0x100003EFC, symSize: 0x3C }
+  - { offsetInCU: 0xB3, offset: 0xB3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x68, symBinAddr: 0x100003F38, symSize: 0x60 }
+...
