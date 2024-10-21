@@ -22,3 +22,6 @@ Open File Description
 Append / Truncation
 - appending always ensures writing to end of file properly
 - truncating removes data from file and then allows writing
+
+Stat
+- syscall that fills a struct with information ab the file
