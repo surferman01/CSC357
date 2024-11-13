@@ -53,3 +53,4 @@ Function Pointers
 
 Signal
 - void (*signal(int signum, void (*handler)(int)))(int);
+- in older c (like compiling with -std=c99), signal will only let you change the FIRST function call you make, so 2 signits will kill process, but the first is handles by signal
